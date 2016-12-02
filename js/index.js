@@ -1,8 +1,4 @@
 $(document).ready(function() {
-	
-if (window.location.protocol !== 'http:') {
-    alert("If weather does not appear, please proceed to http://codepen.io/briemily/full/ZpNKjN/");
-}
 
 	var api = "https://crossorigin.me/http://api.openweathermap.org/data/2.5/weather?q=";
 	var key = "&APPID=039a3eef2532be1a795994145b70dc46&units=imperial";
