@@ -1,0 +1,96 @@
+
+body {
+  background-color: #283739;
+	text-align: center;
+}
+
+.row {
+  padding-top: 30px;
+}
+
+h1 {
+font-family:'Londrina Sketch', cursive;
+  font-size: 90px;
+	margin-top: 90px;
+	color: #A9C52F;
+}
+
+p {
+font-family: 'Pontano Sans', sans-serif;
+	font-size: 30px;
+	color: #F5F5F5;
+}
+
+h2 {color: #F5F5F5;}
+
+#convert {
+    background: none;
+    border: none;
+    margin-left: 20px;
+    padding:0;
+		color: #A9C52F;
+		font-family: 'Pontano Sans', sans-serif;
+	font-size: 22px;
+	outline: 0;
+}
+
+.inline {display: inline;}
+
+#icon, .fa, .owf {color: #228896;}
+
+.fa-3x {
+	margin-bottom: 12px;
+}
+
+input[type=text] {
+	background-color: #A9C52F;
+	border: none;
+	border-radius: 7px;
+	outline: none;
+	padding-left: 7px;
+	color: #283739;
+	width: 150px;
+	padding-right: 28px;
+}
+
+*::-webkit-input-placeholder {
+    color: #283739;
+}
+*:-moz-placeholder {
+    /* FF 4-18 */
+    color: #283739;
+}
+*::-moz-placeholder {
+    /* FF 19+ */
+    color: #283739;
+}
+*:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #283739;
+}
+
+button[type=button] {
+	background: none;
+	border: none;
+	outline: none;
+	margin-left: -28px;
+}
+
+.fa-chevron-circle-right {
+	color: #283739;
+}
+
+
+@media only screen and (max-width: 500px) {
+	h1 {  font-size: 65px;
+	margin-top: 60px;}
+	p {font-size: 20px;}
+	#convert {font-size: 16px;}
+	.fa-3x {margin-bottom: 8px;}
+	button[type=submit] {margin-left: -34px;}
+}
+
+
+
+
+
